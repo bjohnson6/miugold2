@@ -5,3 +5,7 @@
 label.error{display:block; margin:10px 0; color: #cc0000;}
 
 #myerrorslink{display:none;}
+
+
+
+$('#about').css('background-image', 'url(' images+ img + backgroundpink.png')')
