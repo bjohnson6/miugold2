@@ -32,22 +32,30 @@
      
      <div data-role="page" id="home">
 
-          <div data-role="header" data-position="fixed" data-theme="c">
-         	  <h1>My Love Tracker</h1>
-          </div> 
+          <div data-role="header" data-position="fixed" data-theme="a"> 
+      <div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" data-position="left"/>
+     </div> 
+</div>
+
+
+  
          <!--Add image here-->
 <!--          <div data-role="content"> -->
+
+
+  <data data-role="content">
+
 <div id="logo">
-  
-             <a href="#addamoment"><img  src="images/puppylove2.png" ="Logo"/></a>
+    <a href="#addamoment"><img  src="images/puppylove2.png" ="Logo"/></a>
 
         </div>
  <!--         </div> -->
       
       
           <div data-role="content"> 
-                <ul data-role="listview" data-theme="d" data-filter="true" data-inset="true"> 
-                      <li data-role="list-divider" data-theme="a" >Browse Moments</li>              
+                <ul data-role="listview" data-theme="c" data-filter="true" data-inset="true"> 
+                      <li data-role="list-divider" data-theme="d" >Browse Moments</li>              
                	           <li><a href="#met" ><img src="images/img/09-chat-2@2x.png" class="ui-li-icon"/>
                               <h3>First Met</h3></a></li>
                            <li><a href="#date" ><img src="images/img/299-ticket@2x.png" class="ui-li-icon"/>
@@ -57,8 +65,7 @@
                	           <li><a href="#loveyou" ><img src="images/img/29-heart@2x.png" class="ui-li-icon"/>
                               <h3>First said I love you</h3></a></li>
                            <li><a href="#special moments" ><img src="images/img/24-gift@2x.png" class="ui-li-icon"/>
-                              <h3>Special Moments</h3></a></li> 
-                          
+                              <h3>Special Moments</h3></a></li>
                 </ul>
              </div>
         
@@ -78,18 +85,24 @@
 
 
      <!-- Start of first page About Page-->
-<div data-role="page" id="about" data-add-back-btn="true">
+<div data-role="page" id="about" data-add-back-btn="true" data-position="left" style="background-image:url(images/img/backgroundpink.png)">
 
-	<div data-role="header" data-position="fixed">
-		<h1>About Page</h1>
+
+	<div data-role="header">
+		 <div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" />
+     </div> 
+		
+	<!--	<span><h2><img src="images/img/logo2.png"></h2></span> -->
+	
+  <!--       <p><img  src="images/img/logo.png" ="Logo" data-position="left"/></p> -->
 	</div><!-- /header -->
 
-	<ul div data-role="content">
-        <!-- /content -->
-        
+	<ul div data-role="content"> 
+	     
 	<div data-role="collapsible-set">
    
-	<div data-role="collapsible" data-collapsed="false">
+	<div data-role="collapsible" data-collapsed="false" style="white">
 	<h3>About My Love Tracker App</h3>
 	<p>My Love Tracker is a fun app made to keep track of all your relationships special moments.</p>
 	</div>
@@ -109,7 +122,6 @@
 	<h3>Illustration Credit</h3>
 	<p>www.istockphoto.com</p>
 
- 
 	</div>
 
 </div>
@@ -127,11 +139,13 @@
 		
 
 <!-- Start of First Met-->
-<div data-role="page" id="met" data-add-back-btn="true" >
+<div data-role="page" id="met" data-add-back-btn="true" style="background-image:url(images/img/backgroundpink.png)" data-position="fixed">
 
 
 	<div data-role="header"  data-position="fixed">
-		<h1>First Met</h1>
+	 <div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" />
+     </div> 
 	</div><!-- /header -->
 	
 
@@ -157,7 +171,9 @@
 <div data-role="page" id="date"  data-add-back-btn="true" >
 
 	<div data-role="header"  data-position="fixed" >
-		<h1>First Date</h1>
+		 <div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" />
+     </div> 
 	</div><!-- /header -->
 
 	<div data-role="content">	
@@ -182,7 +198,9 @@
 <div data-role="page" id="kiss" data-add-back-btn="true" >
 
 	<div data-role="header" data-position="fixed">
-		<h1>First Kiss</h1>
+		<div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" />
+     </div> 
 	</div><!-- /header -->
 
 	<div data-role="content">	
@@ -206,7 +224,9 @@
 <div data-role="page" id="loveyou" data-add-back-btn="true" >
 
 	<div data-role="header" data-position="fixed">
-		<h1>First said I love you</h1>
+		<div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" />
+     </div> 
 	</div><!-- /header -->
 
 	<div data-role="content">	
@@ -231,7 +251,9 @@
 <div data-role="page" id="special moments" data-add-back-btn="true" >
 
 	<div data-role="header" data-position="fixed">
-		<h1>Special Moments</h1>
+		<div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" />
+     </div> 
 	</div><!-- /header -->
 
 	<div data-role="content">	
@@ -252,16 +274,16 @@
      </div>
 		
  <!-- Start of Git Links-->
-<div data-role="page" id="git" data-add-back-btn="true" >
+<div data-role="page" id="git" data-add-back-btn="true" style="background-image:url(images/img/backgroundpink.png)" data-position="fixed">
 
 	<div data-role="header" data-position="fixed">
 		<h1>Git Links</h1>
 	</div><!-- /header -->
 
 	<div data-role="content">
-          <ul data-role="listview"  data-inset="true">
+          <ul data-role="listview"  data-inset="true" data-theme="c">
                 <!--Creats A Header Above-->   
-                   <li data-role="list-divider">My Git links below</li>          
+                   <li data-role="list-divider"  data-theme="d">My Git links below</li>          
                	   <li><a href="https://github.com/bjohnson6/miugold2">Gold App</a></li>
                	   <li><a href="https://github.com/bjohnson6/miubronze3">Bronze App</a></li> 	  
            </ul>		

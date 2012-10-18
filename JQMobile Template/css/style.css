@@ -6,6 +6,20 @@ label.error{display:block; margin:10px 0; color: #cc0000;}
 
 #myerrorslink{display:none;}
 
+<style type="text/css">
+body {
+    background: url(images/img/backgroundpink.png);
+    background-repeat:repeat-y;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
+}
+</style>
 
 
-$('#about').css('background-image', 'url(' images+ img + backgroundpink.png')')
