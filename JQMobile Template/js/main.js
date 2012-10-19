@@ -72,6 +72,11 @@ var getData = function(){
 };
 
 var storeData = function(data){
+	var id =Math.floor(Math.random()*1000000001);
+	localStorage.setItem(id, JSON.stringify(data));
+
+	localStorage.setItem(id, JSON.stringify(data));
+	alert("Memory Saved!");
 	
 }; 
 

@@ -15,6 +15,8 @@
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Theme Roller-->
+	
 	
 	<!-- Mobile IE needs ClearType for smoothing fonts -->
 	<meta http-equiv="cleartype" content="on">
@@ -30,46 +32,50 @@
 </head>
 <body>
      
-     <div data-role="page" id="home">
+    <div data-role="page" id="home" 
+    data-position="fixed">
 
-          <div data-role="header" data-position="fixed" data-theme="c">
-         	  <h1>My Love Tracker</h1>
-          </div> 
-         <!--Add image here-->
-<!--          <div data-role="content"> -->
+          <div data-role="header" data-position="fixed" data-theme="a"> 
+      <div data-role="content">
+         	<img  src="images/img/logo2.png" id="Logo" data-position="left"/>
+     </div> 
+</div>
+
+
+
+  <data data-role="content">
+
 <div id="logo">
-	         
-             <a href="#addamoment"><img id ="logo" src="images/puppylove2.png" ="Logo"/></a>
+    <a href="#addamoment"><img  src="images/puppylove4.png" ="Logo" data-position="center"/></a>
 
         </div>
  <!--         </div> -->
       
       
           <div data-role="content"> 
-                <ul data-role="listview" data-theme="d" data-filter="true" data-inset="true"> 
-                      <li data-role="list-divider" data-theme="a" >Browse Moments</li>              
-               	           <li><a href="#met" class="has-icon"><img src="images/img/First Met.png" class="ui-li-icon"/>
+                <ul data-role="listview" data-theme="c" data-filter="true" data-inset="false"> 
+                      <li data-role="list-divider"  >Browse Moments</li>              
+               	           <li><a href="#met" ><img src="images/img/09-chat-2@2x.png" class="ui-li-icon"/>
                               <h3>First Met</h3></a></li>
-                           <li><a href="#date" class="has-icon"><img src="images/img/First Date.png" class="ui-li-icon"/>
+                           <li><a href="#date" ><img src="images/img/299-ticket@2x.png" class="ui-li-icon"/>
                               <h3>First Date</h3></a></li>  
-               	           <li><a href="#kiss" class="has-icon"><img src="images/img/First Kiss.png" class="ui-li-icon"/>
+               	           <li><a href="#kiss" ><img src="images/img/269-happyface@2x.png" class="ui-li-icon"/>
                               <h3>First Kiss</h3></a></li>
-               	           <li><a href="#loveyou" class="has-icon"><img src="images/img/First Said I Love You!.png" class="ui-li-icon"/>
+               	           <li><a href="#loveyou" ><img src="images/img/29-heart@2x.png" class="ui-li-icon"/>
                               <h3>First said I love you</h3></a></li>
-                           <li><a href="#special moments" class="has-icon"><img src="images/img/Note A Special Moment.png" class="ui-li-icon"/>
-                              <h3>Special Moments</h3></a></li> 
-	
+                           <li><a href="#special moments" ><img src="images/img/24-gift@2x.png" class="ui-li-icon"/>
+                              <h3>Special Moments</h3></a></li>
                 </ul>
              </div>
         
       
-         <div data-role="footer" data-position="fixed" data-theme="a">
+         <div data-role="footer" data-position="fixed" data-theme="c">
      	     <div data-role="navbar">
 	             <ul>
 		            <li><a href="#about" data-icon="info">About Page</a></li>
 		              <li><a href="https://github.com/bjohnson6/miu3bronzeapp/index.html" data-icon="grid">Bronze App</a></li>
-		            <li><a href="#git" data-icon="info">Git Links</a></li>
-		            
+		            <li><a href="#git" data-icon="info">Git & GH Links</a></li>
+
 		      <!--      <li><a href="#bronze" data-icon="star">Bronze App</a></li> -->
 	              </ul>
              </div><!-- /navbar -->
@@ -78,61 +84,75 @@
 
 
      <!-- Start of first page About Page-->
-<div data-role="page" id="about" data-add-back-btn="true">
+<div data-role="page" id="about" data-add-back-btn="true" data-position="left" style="background-image:url(images/img/pinkb.png)">
 
-	<div data-role="header" data-position="fixed">
-		<h1>About Page</h1>
+
+	<div data-role="header">
+		 <div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" />
+     </div> 
+
+	<!--	<span><h2><img src="images/img/logo2.png"></h2></span> -->
+
+  <!--       <p><img  src="images/img/logo.png" ="Logo" data-position="left"/></p> -->
 	</div><!-- /header -->
 
-	<ul div data-role="content">
-        <!-- /content -->
-        
+	<ul div data-role="content"> 
+
 	<div data-role="collapsible-set">
    
-	<div data-role="collapsible" data-collapsed="false">
+	<div data-role="collapsible" data-collapsed="false" >
 	<h3>About My Love Tracker App</h3>
 	<p>My Love Tracker is a fun app made to keep track of all your relationships special moments.</p>
 	</div>
-	
+
 	<div data-role="collapsible">
 	<h3>App Created by</h3>
 	<p>Bernice A. Johnson: Designer/Mobile Developer</p>
-	<p>copy right 2012</p>
+	<p>copyright 2012</p>
 	</div>
 
 	<div data-role="collapsible">
 	<h3>My Contact Information</h3>
-	<p>Email: bernicejohnson@fullsail.com</p>
+	<p>Email: bernicejohnson@fullsail.edu</p>
 	</div>
-	
+
 	<div data-role="collapsible">
 	<h3>Illustration Credit</h3>
 	<p>www.istockphoto.com</p>
- 
+
 	</div>
+
 </div>
 
 	<div data-role="footer" data-position="fixed">
 		<div data-role="navbar">
 	             <ul>
 		            <li><a href="#home" data-icon="home">Home</a></li>
-		            <li><a href="..users/johnson_bernice_project2_MiuB/JQMobile Template/index.html" data-icon="grid">Bronze App</a></li>
-		            <li><a href="#git" data-icon="info">Git Links</a></li>
+		            <li><a href="https://github.com/bjohnson6/miubronze3/tree/gh-pages" data-icon="grid">Bronze App</a></li>
+		            <li><a href="#git" data-icon="info">Git & GH Links</a></li>
 	              </ul>
              </div><!-- /navbar -->
          </div><!--/footer-->    
      </div>
-		
+
 
 <!-- Start of First Met-->
-<div data-role="page" id="met" data-add-back-btn="true" >
+<div data-role="page" id="met" data-add-back-btn="true" style="background-image:url(images/img/pinkb.png)" data-position="fixed">
+
 
 	<div data-role="header"  data-position="fixed">
-		<h1>First Met</h1>
+	 <div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" />
+     </div> 
 	</div><!-- /header -->
 
+
 	<div data-role="content">	
-		<p>Where and when we first met!</p>				
+
+		 <div data-role="content">
+         	<img  src="images/img/Tape.png" ="tape"  data-position="center"/>
+     </div> 		
 	</div><!-- /content -->
 
 	<div data-role="footer"  data-position="fixed">
@@ -141,22 +161,28 @@
 		            <li><a href="#home" data-icon="home">Home</a></li>
 		             <li><a href="#about" data-icon="info">About Page</a></li>
 		              <li><a href= "https://github.com/bjohnson6/miu3bronzeapp/index.html "data-icon="grid">Bronze App</a></li>
-		            <li><a href="#git" data-icon="info">Git Links</a></li>
-		            
+		            <li><a href="#git" data-icon="info">Git & GH Links</a></li>
+
 	              </ul>
              </div><!-- /navbar -->
          </div><!--/footer-->    
      </div>
 
+
 <!-- Start of First Date-->
-<div data-role="page" id="date"  data-add-back-btn="true" >
+<div data-role="page" id="date"  data-add-back-btn="true" style="background-image:url(images/img/pinkb.png)" data-position="fixed">
 
 	<div data-role="header"  data-position="fixed" >
-		<h1>First Date</h1>
+		 <div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" />
+     </div> 
 	</div><!-- /header -->
 
 	<div data-role="content">	
-		<p>First dates and details!</p>		
+		 <div data-role="content">
+         	
+     </div> 		
+	<img  src="images/img/Tape.png" id="tape"  data-position="center"/>
 		</div><!-- /content -->
 
 	<div data-role="footer"  data-position="fixed">
@@ -164,58 +190,63 @@
 	             <ul>
 		            <li><a href="#home" data-icon="home">Home</a></li>
 		             <li><a href="#about" data-icon="info">About Page</a></li>
-		              <li><a href="..users/johnson_bernice_project2_MiuB/JQMobile Template/index.html" data-icon="grid">Bronze App</a></li>
-		            <li><a href="#git" data-icon="info">Git Links</a></li>
-		            
+		              <li><a href="https://github.com/bjohnson6/miubronze3/tree/gh-pages" data-icon="grid">Bronze App</a></li>
+		            <li><a href="#git" data-icon="info">Git & GH Links</a></li>
+
 	              </ul>
              </div><!-- /navbar -->
          </div><!--/footer-->    
      </div>
-		
+
 
 <!-- Start of First Kiss-->
-<div data-role="page" id="kiss" data-add-back-btn="true" >
+<div data-role="page" id="kiss" data-add-back-btn="true" style="background-image:url(images/img/pinkb.png)" data-position="fixed">
 
 	<div data-role="header" data-position="fixed">
-		<h1>First Kiss</h1>
+		<div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" />
+     </div> 
 	</div><!-- /header -->
 
 	<div data-role="content">	
-		<p>Want to remember your first smooch? Look here!</p>		
-			</div><!-- /content -->
+		<img  src="images/img/Tape.png" id="tape"  data-position="center"/>
+		</div><!-- /content -->	
+
 
 	<div data-role="footer" data-position="fixed">
 		 <div data-role="navbar">
 	             <ul>
 		            <li><a href="#home" data-icon="home">Home</a></li>
 		             <li><a href="#about" data-icon="info">About Page</a></li>
-		              <li><a href="..users/johnson_bernice_project2_MiuB/JQMobile Template/index.html" data-icon="grid">Bronze App</a></li>
-		            <li><a href="#git" data-icon="info">Git Links</a></li>
-		            
+		              <li><a href="https://github.com/bjohnson6/miubronze3/tree/gh-pages" data-icon="grid">Bronze App</a></li>
+		            <li><a href="#git" data-icon="info">Git & GH Links</a></li>
+
 	              </ul>
              </div><!-- /navbar -->
          </div><!--/footer-->    
      </div>
 
 <!-- Start of First I love you-->
-<div data-role="page" id="loveyou" data-add-back-btn="true" >
+<div data-role="page" id="loveyou" data-add-back-btn="true" style="background-image:url(images/img/pinkb.png)" data-position="fixed">
 
 	<div data-role="header" data-position="fixed">
-		<h1>First said I love you</h1>
+		<div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" />
+     </div> 
 	</div><!-- /header -->
 
 	<div data-role="content">	
-		<p>First Said I love you!</p>				
+		<img  src="images/img/Tape.png" id="tape"  data-position="center"/>			
 	</div><!-- /content -->
 
 	<div data-role="footer" data-position="fixed">
 		 <div data-role="navbar">
 	             <ul>
 		            <li><a href="#home" data-icon="home">Home</a></li>
-		             <li><a href="#about" data-icon="info">About Page</a></li>
-		              <li><a href="..users/johnson_bernice_project2_MiuB/JQMobile Template/index.html" data-icon="grid">Bronze App</a></li>
-		            <li><a href="#git" data-icon="info">Git Links</a></li>
-		            
+		             <li><a href="about" data-icon="info">About Page</a></li>
+		              <li><a href="https://github.com/bjohnson6/miubronze3/tree/gh-pages" data-icon="grid">Bronze App</a></li>
+		            <li><a href="#git" data-icon="info">Git & GH Links</a></li>
+
 	              </ul>
              </div><!-- /navbar -->
          </div><!--/footer-->    
@@ -223,14 +254,16 @@
 
 
 <!-- Start of Special Moments-->
-<div data-role="page" id="special moments" data-add-back-btn="true" >
+<div data-role="page" id="special moments" data-add-back-btn="true" style="background-image:url(images/img/pinkb.png)" data-position="fixed">
 
 	<div data-role="header" data-position="fixed">
-		<h1>Special Moments</h1>
+		<div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" />
+     </div> 
 	</div><!-- /header -->
 
 	<div data-role="content">	
-		<p>All your special moments right here</p>		
+		<img  src="images/img/Tape.png" id="tape"  data-position="center"/>	
 		</div><!-- /content -->
 
 	<div data-role="footer" data-position="fixed">
@@ -238,27 +271,37 @@
 	             <ul>
 		            <li><a href="#home" data-icon="home">Home</a></li>
 		             <li><a href="#about" data-icon="info">About Page</a></li>
-		              <li><a href="..users/johnson_bernice_project2_MiuB/JQMobile Template/index.html" data-icon="grid">Bronze App</a></li>
-		            <li><a href="#git" data-icon="info">Git Links</a></li>
-		            
+		              <li><a href="https://github.com/bjohnson6/miubronze3/tree/gh-pages" data-icon="grid">Bronze App</a></li>
+		            <li><a href="#git" data-icon="info">Git & GH Links</a></li>
+
 	              </ul>
              </div><!-- /navbar -->
          </div><!--/footer-->    
      </div>
-		
+
  <!-- Start of Git Links-->
-<div data-role="page" id="git" data-add-back-btn="true" >
+<div data-role="page" id="git" data-add-back-btn="true" style="background-image:url(images/img/pinkb.png)" data-position="fixed">
 
 	<div data-role="header" data-position="fixed">
-		<h1>Git Links</h1>
-	</div><!-- /header -->
 
-	<div data-role="content">
-          <ul data-role="listview"  data-inset="true">
+		<div data-role="content">
+         	<img  src="images/img/logo2.png" ="Logo" />
+     </div> 
+	
+
+   </div>
+	
+
+	  <div data-role="content">
+          <ul data-role="listview"  data-inset="true" data-theme="c">
                 <!--Creats A Header Above-->   
-                   <li data-role="list-divider">My Git links below</li>          
-               	   <li><a href="https://github.com/bjohnson6/MIU-week-2-project">Gold App</a></li>
-               	   <li><a href="https://github.com/bjohnson6/miuweek2B">Bronze App</a></li> 	  
+                   <li data-role="list-divider"  data-theme="c"  >My Git & GH-pages links below</li>          
+               	   <li><a href="https://github.com/bjohnson6/miugold2">Gold App</a></li>
+               	   <li><a href="https://github.com/bjohnson6/miubronze3">Bronze App</a></li> 
+
+               	   
+               	   <li><a href="https://github.com/bjohnson6/miugold2/tree/gh-pages">GH-PAGES Gold App</a></li>
+               	   <li><a href="https://github.com/bjohnson6/miubronze3/tree/gh-pages">GH-PAGES Bronze App</a></li>  	  
            </ul>		
 	</div><!-- /content -->
 
@@ -267,24 +310,27 @@
 	             <ul>
 		            <li><a href="#home" data-icon="home">Home</a></li>
 		             <li><a href="#about" data-icon="info">About Page</a></li>
-		              <li><a href="..users/johnson_bernice_project2_MiuB/JQMobile Template/index.html" data-icon="grid">Bronze App</a></li>
-		            <li><a href="#git" data-icon="info">Git Links</a></li>
-		            
+		              <li><a href="https://github.com/bjohnson6/miubronze3/tree/gh-pages" data-icon="grid">Bronze App</a></li>
+		            <li><a href="#git" data-icon="info">Git & GH Links</a></li>
+
 	              </ul>
          </div><!-- /navbar -->
        </div><!--/footer-->    
      </div>
 
      <!--Start of additempage-->
-         <div data-role="page" id="addamoment" data-add-back-btn="true" >
+         <div data-role="page" id="addamoment" data-add-back-btn="true" 
 
          	   <div data-role="header" data-position="fixed">
-         	   	  <h1>Add A Moment</h1>
+         	<!--   	 <div data-role="content"> -->
+         <h1><img  src="images/img/logo2.png" ="Logo" data-position="left"/></h1>
+ <!--    </div> -->
          	   </div>	<!--/header-->
        
            
      <!--ADD Moment FORM-->
          <div data-role="content">
+         	
          	<p>*fields required</p>
 
          	<form action="" method="post" id="addmomentform">
@@ -293,7 +339,7 @@
          	  	   <label for="Add A Moment">*Choose A Moment</label>
          	  	   
          	 
-         	  	   <select name="Choose A Moment" id="Choose A Moment" data-native-menu="false" class="required">
+         	  	   <select name="Choose A Moment" id="Choose A Moment" data-native-menu="true" class="required">
          	  	   	  <option data-placeholder="true" value=>Please Select One</option>
          	  	   	  <optgroup label="Choose A Moment">      
          	  	   	     <option value="First Met">First Met</option>
@@ -382,9 +428,9 @@
 	             <ul>
 		            <li><a href="#home" data-icon="home">Home</a></li>
 		             <li><a href="#about" data-icon="info">About Page</a></li>
-		              <li><a href="..users/johnson_bernice_project2_MiuB/JQMobile Template/index.html" data-icon="grid">Bronze App</a></li>
-		            <li><a href="#git" data-icon="info">Git Links</a></li>
-		            
+		              <li><a href="https://github.com/bjohnson6/miubronze3/tree/gh-pages" data-icon="grid">Bronze App</a></li>
+		            <li><a href="#git" data-icon="info">Git & GH Links</a></li>
+
 	              </ul>
 	              </div>
           </div>   
@@ -396,19 +442,19 @@
                 	</div>
                 <div data-role="content">	
                   <ul>
-                    <li>Test.</li>
+                    <li>Choose a moment</li>
                   </ul>
                 </div>
       </div>  	
 
 
-		
+
 
 
 
 
 	<!-- JavaScript under here -->
-	
+
     <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
     <script type="text/javascript" src="js/libs/jquery.validate.min.js"></script>
@@ -417,3 +463,5 @@
 
 </body>
 </html>
+
+
